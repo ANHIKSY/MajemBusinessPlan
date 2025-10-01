@@ -88,6 +88,10 @@ body {
 }
 
 /* Executive Summary */
+.exec-content {
+  text-align: center;
+}
+
 .founder-photo img {
   width: 180px;
   height: auto;
