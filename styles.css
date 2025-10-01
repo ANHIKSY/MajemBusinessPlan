@@ -88,22 +88,11 @@ body {
 }
 
 /* Executive Summary */
-.exec-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
 .founder-photo img {
   width: 180px;
   height: auto;
   border-radius: 8px;
   border: 2px solid var(--accent-dark);
-}
-
-.exec-text {
-  flex: 1;
-  align-self: center;
 }
 
 /* FOOTER */
@@ -170,12 +159,6 @@ body.dark .site-footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .exec-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
   .site-header h1 {
     font-size: 1.2rem;
     text-align: center;
